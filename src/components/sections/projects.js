@@ -301,9 +301,13 @@ const Projects = () => {
         )}
       </ul>
 
-      <button className="more-button" onClick={() => setShowMore(!showMore)}>
-        Show {showMore ? 'Less' : 'More'}
-      </button>
+      {
+        projects.length == GRID_LIMIT 
+          ? <br></br> 
+          : <button className="more-button" onClick={() => setShowMore(!showMore)}>
+              Show {showMore ? 'Less' : 'More'}
+            </button>
+      }
     </StyledProjectsSection>
   );
 };

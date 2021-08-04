@@ -59,14 +59,14 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const two = <h2 className="big-heading">Gagan Yadav.</h2>;
+  const three = <h3 className="big-heading">I build things with flutter.</h3>;
   const four = (
     <p>
-      I'm a software engineer specializing in building (and occasionally designing) exceptional
-      digital experiences. Currently, I'm focused on building accessible, human-centered products at{' '}
-      <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-        Upstatement
+      I'm a computer science student specializing in machine learning and cross-platform flutter apps. 
+      Currently, I'm pursuing B.Tech computer science at{' '}
+      <a href="https://lpu.in/" target="_blank" rel="noreferrer">
+        Lovely Professional University
       </a>
       .
     </p>

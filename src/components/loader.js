@@ -19,7 +19,7 @@ const StyledLoader = styled.div`
 
   .logo-wrapper {
     width: max-content;
-    max-width: 100px;
+    max-width: 150px;
     transition: var(--transition);
     opacity: ${props => (props.isMounted ? 1 : 0)};
     svg {
@@ -29,7 +29,7 @@ const StyledLoader = styled.div`
       margin: 0 auto;
       fill: none;
       user-select: none;
-      #B {
+      #G {
         opacity: 0;
       }
     }
@@ -53,7 +53,7 @@ const Loader = ({ finishLoading }) => {
         strokeDashoffset: [anime.setDashoffset, 0],
       })
       .add({
-        targets: '#logo #B',
+        targets: '#logo #G',
         duration: 700,
         easing: 'easeInOutQuart',
         opacity: 1,
